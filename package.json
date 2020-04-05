@@ -1,0 +1,21 @@
+{
+  "name": "notifymeover",
+  "version": "0.1.0",
+  "description": "Telegram bot and API service for self notifying.",
+  "author": "Siarhei Lazakovich <destryktorslk@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "8.0.8",
+    "jsonwebtoken": "8.5.1",
+    "koa": "2.11.0",
+    "koa-body": "4.1.1",
+    "koa-jwt": "3.6.0",
+    "telegraf": "3.37.0",
+    "telegraf-command-parts": "1.0.3"
+  },
+  "engines": {
+    "node": ">= 13.0.0"
+  },
+  "type": "module"
+}
